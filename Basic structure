@@ -1,0 +1,5 @@
+#include<stdio.h>
+int main(void){
+    printf("hello!!");   //This is an basic program of c
+    return 0;
+}
