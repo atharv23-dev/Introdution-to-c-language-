@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main (){
+    //How to use variables in c 
+    int sum1 = 20 + 40;
+
+    //defining varables 
+    int a = 20 , b = 40;
+
+    int sum2 = a + b + 10;
+
+    printf("%d\n%d", sum1 , sum2);    
+
+    return 0;
+
+output:-
+
+  60
+  70
+  
