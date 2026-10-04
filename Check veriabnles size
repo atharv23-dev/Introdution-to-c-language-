@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main (){
+
+    // To check the size of the veriable 
+
+    int num = 23;
+    printf("%zu bytes \n", (int)sizeof(num));
+
+    return 0;
+}
+output:-
+4 Bytes 
