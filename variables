@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main (){
+    //Variables
+
+    int age = 20;
+    float hight = 5.7;
+    char grade = 'A';
+
+    printf("Age :%d\n",age);
+    printf("Hight :%.5f\n",hight);
+    printf("Grade :%C\n",grade);
+
+
+    return 0;
+}
+
+output:-
+Age :20
+Hight :5.70000
+Grade :A
