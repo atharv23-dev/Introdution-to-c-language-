@@ -1,1 +1,21 @@
+#include<stdio.h>
+int main (){
+    //Changing stored values 
+    int number = 10;
+    printf("initial value: %d\n",number);
 
+    number = 25;
+    printf("updated value: %d\n", number);
+
+    //updating again using expression 
+    number = number + 5;
+    printf("After Adding 5: %d", number);
+
+    return 0;
+}
+
+output:-
+
+initial value: 10
+updated value: 25
+After Adding 5: 30%  
