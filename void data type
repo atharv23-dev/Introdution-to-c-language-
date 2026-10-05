@@ -11,3 +11,6 @@ int main()
     greet();
     return 0;
 }
+output:-
+Hellow world
+
