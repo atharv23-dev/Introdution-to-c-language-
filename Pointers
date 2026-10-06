@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+// Pointers
+
+int main() {
+    int x = 10;
+    int *ptr = &x;
+
+    printf("Enter the value of x: %d\n",x);
+    printf("Address of x: %p\n",(void *)&x);
+    printf("Value using pointer: %d\n",*ptr);
+
+    return 0;
+}
+
+output:-
+
+Enter the value of x: 10
+Address of x: 0x16f182928
+Value using pointer: 10
